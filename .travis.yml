@@ -8,5 +8,5 @@ r:
 
 script:
   - R CMD build .
-  - R CMD check dotsttest_*
+  - R CMD check dotsttest_*.tar.gz
 
