@@ -1,0 +1,12 @@
+language: r
+os: linux
+r:
+  - 3.6.2
+  - 3.6.3
+  - 4.0
+  - devel
+
+script:
+  - R CMD build .
+  - R CMD check dotsttest_*
+

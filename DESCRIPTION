@@ -1,0 +1,14 @@
+Package: dotstest
+Type: Package
+Title: Testing a weirdness in R CMD check
+Version: 0.0.1
+Date: 2020-04-26
+Authors@R: person("Christopher", "Black", role = c("aut", "cre"),
+                     email = "ckb23@psu.edu",
+                     comment = c(ORCID = "0000-0001-8382-298X"))
+Description: Testing a possibly OS-specific case of R CMD check missing a mismatch between usage and function signature.
+License: Unlimited
+Copyright: Authors
+LazyData: FALSE
+Encoding: UTF-8
+RoxygenNote: 7.0.2
